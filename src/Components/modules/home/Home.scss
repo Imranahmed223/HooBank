@@ -1,16 +1,62 @@
-@import '../../../Sass/mixin';
-@import '../../../Sass/variables';
+@import "../../../Sass/mixin";
+@import "../../../Sass/variables";
 
-.subheader-container{
-    width: 100%;
+.subheader-container {
+  width: 100%;
+  height: auto;
+  padding: 0.5rem 0rem;
+  background-color: aqua;
+  &-content {
+    width: 80%;
     height: auto;
-    padding: .5rem 0rem;
-    background-color: aqua;
-    &-content{
-        width: 80%;
-        height: auto;
-        margin: auto;
-        padding: .5rem 0rem;
-        background-color: pink;
+    margin: auto;
+    display: flex;
+    padding: 0.5rem 0rem;
+    background-color: pink;
+    &-left {
+      width: 60%;
+      height: auto;
+      padding: 0.5rem 0rem;
+      background-color: purple;
+      &-discountbox {
+        position: absolute;
+        width: 408px;
+        height: 40px;
+        left: 135px;
+        top: 160px;
+  display: flex;
+  align-items: center;
+        background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+        border-radius: 10px;
+        &>img{
+            width: 20px;
+position: absolute;
+left: 4.33%;
+// right: 8.34%;
+// top: 8.33%;
+// bottom: 8.34%;
+padding: .5rem;
+border-radius: 50px;
+background: #393939;
+mix-blend-mode: normal;
+// opacity: 0.4;
+        }
+      }
     }
+    &-right {
+      width: 40%;
+      height: auto;
+      padding: 0.5rem 0rem;
+      background: linear-gradient(
+        180deg,
+        rgba(188, 165, 255, 0) 0%,
+        #214d76 100%
+      );
+      // border: 1px solid #000000;
+      // filter: blur(61.5px);
+      & > img {
+        width: 530px;
+      }
+    }
+  }
 }
