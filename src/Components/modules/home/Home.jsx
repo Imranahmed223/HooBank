@@ -10,6 +10,9 @@ const Home = () => {
           <div className="subheader-container-content-left">
             <div className="subheader-container-content-left-discountbox">
                 <img src={Persentage} alt="persentage" />
+                <p>
+                    <span>20%</span> DISCOUNT FOR <span>1 MONTH</span> ACCOUNT
+                </p>
             </div>
           </div>
           <div className="subheader-container-content-right">

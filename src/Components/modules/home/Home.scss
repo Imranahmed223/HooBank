@@ -26,6 +26,7 @@
         top: 160px;
   display: flex;
   align-items: center;
+//   justify-content: space-between;
         background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
         border-radius: 10px;
         &>img{
@@ -40,6 +41,18 @@ border-radius: 50px;
 background: #393939;
 mix-blend-mode: normal;
 // opacity: 0.4;
+        }
+        &>p{
+            font-family: 'Poppins';
+font-style: normal;
+font-weight: 200;
+font-size: 18px;
+line-height: 150%;
+color: #FFFFFF;
+margin-left: 55px;
+&>span{
+    font-weight: 500;
+}
         }
       }
     }
