@@ -5,7 +5,8 @@
   width: 100%;
   height: auto;
   padding: 0.5rem 0rem;
-  background-color: aqua;
+//   background-color: aqua;
+  background-color: rgb(53, 52, 52);
   &-content {
     width: 80%;
     height: auto;
@@ -13,7 +14,6 @@
     padding: 0.5rem 0rem;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(53, 52, 52);
     &-left {
       width: 20%;
       display: flex;

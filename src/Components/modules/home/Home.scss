@@ -1,0 +1,16 @@
+@import '../../../Sass/mixin';
+@import '../../../Sass/variables';
+
+.subheader-container{
+    width: 100%;
+    height: auto;
+    padding: .5rem 0rem;
+    background-color: aqua;
+    &-content{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        padding: .5rem 0rem;
+        background-color: pink;
+    }
+}
