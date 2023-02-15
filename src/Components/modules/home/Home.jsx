@@ -77,7 +77,15 @@ const Home = () => {
       </div>
       <div className="transaction-container5">
         <div className="transaction-container5-content">
-          <div className="transaction-container5-content-left"></div>
+          <div className="transaction-container5-content-left">
+            <div className="transaction-container5-content-left-paypal-container">
+              <div className="transaction-container5-content-left-paypal-container-content">
+                <div className="transaction-container5-content-left-paypal-container-content-row1">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="transaction-container5-content-right"></div>
         </div>
       </div>
