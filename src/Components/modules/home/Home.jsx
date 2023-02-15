@@ -32,8 +32,26 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="container3">
+        <div className="container3-content">
+       <Numberactivity />
+        </div>
+      </div>
     </>
   );
 };
 
 export default Home;
+
+
+
+const Numberactivity=()=>{
+  return(
+    <div className="nactivity">
+      <div className="nactivity-content">
+        <p>300+</p>
+        <h2>user active</h2>
+      </div>
+    </div>
+  )
+}
