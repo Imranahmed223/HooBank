@@ -6,6 +6,7 @@ import GetStart from "../../../assets/homeAssets/getstrt.png";
 import Starimg from "../../../assets/homeAssets/star.png";
 import Chckimg from "../../../assets/homeAssets/chck.png";
 import Teliimg from "../../../assets/homeAssets/teli.png";
+import paypal from "../../../assets/homeAssets/paypal.png";
 const Home = () => {
   return (
     <>
@@ -81,7 +82,15 @@ const Home = () => {
             <div className="transaction-container5-content-left-paypal-container">
               <div className="transaction-container5-content-left-paypal-container-content">
                 <div className="transaction-container5-content-left-paypal-container-content-row1">
-                  
+                  <div className="transaction-container5-content-left-paypal-container-content-row1-left">
+                    <div>
+                      <img src={paypal} alt="paypal" />
+                    </div>
+                  </div>
+                  <div className="transaction-container5-content-left-paypal-container-content-row1-right">
+                    <h1>Paypal</h1>
+                    <p>Checkout</p>
+                  </div>
                 </div>
               </div>
             </div>
