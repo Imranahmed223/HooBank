@@ -76,7 +76,10 @@ const Home = () => {
         </div>
       </div>
       <div className="transaction-container5">
-        <div className="transaction-container5-content"></div>
+        <div className="transaction-container5-content">
+          <div className="transaction-container5-content-left"></div>
+          <div className="transaction-container5-content-right"></div>
+        </div>
       </div>
     </>
   );

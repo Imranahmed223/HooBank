@@ -250,7 +250,20 @@ color: rgba(255, 255, 255, 0.7);
     width: 80%;
     height: auto;
     margin: auto;
+    display:flex;
     padding: .5rem 0rem ;
     background-color: lightcoral;
+    &-left{
+      width: 50%;
+      height: auto;
+      padding: .5rem 0rem ;
+      background-color: lightgray;
+    }
+    &-right{
+      width: 50%;
+      height: auto;
+      padding: .5rem 0rem ;
+      background-color: lightblue;
+    }
   }
 }
