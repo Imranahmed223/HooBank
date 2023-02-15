@@ -136,7 +136,7 @@ background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3
     height: auto;
     margin: auto;
     display: flex;
-    padding :130px 0rem  ;
+    padding-top:130px;
     // background-color: lightcoral;
     &-left{
       width: 50%;
@@ -238,5 +238,19 @@ line-height: 24px;
 color: rgba(255, 255, 255, 0.7);
       }
     }
+  }
+}
+
+.transaction-container5{
+  width: 100%;
+  height: auto;
+  padding: .5rem 0rem;
+  background-color: #9DEDF0;
+  &-content{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: .5rem 0rem ;
+    background-color: lightcoral;
   }
 }
