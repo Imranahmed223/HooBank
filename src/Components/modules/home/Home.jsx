@@ -92,6 +92,18 @@ const Home = () => {
                     <p>Checkout</p>
                   </div>
                 </div>
+                <div className="transaction-container5-content-left-paypal-container-content-row2">
+                  <div className="transaction-container5-content-left-paypal-container-content-row2-left">
+                    <p>Total</p>
+                    <h2>$210</h2>
+                  </div>
+                  <div className="transaction-container5-content-left-paypal-container-content-row2-right">
+                    <button>Change</button>
+                  </div>
+                </div>
+                <div className="transaction-container5-content-left-paypal-container-content-row3">
+                  <button>Make Payment</button>
+                </div>
               </div>
             </div>
           </div>

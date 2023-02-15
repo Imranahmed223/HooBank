@@ -294,14 +294,14 @@
           height: 185px;
           margin: auto;
           // padding: .5rem 0rem;
-          background-color: lightcoral;
+          // background-color: lightcoral;
           &-row1 {
             width: 100%;
             height: auto;
             display: flex;
             align-items: center;
             padding: 0.5rem 0rem;
-            background-color: plum;
+            // background-color: plum;
             &-left {
               & > div {
                 width: 56px;
@@ -315,26 +315,102 @@
             }
             &-right {
               margin-left: 11px;
-              &>h1{
-                font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 160%;
-/* or 38px */
-letter-spacing: 0.01em;
-color: #FFFFFF;
+              & > h1 {
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 160%;
+                /* or 38px */
+                letter-spacing: 0.01em;
+                color: #ffffff;
               }
-              &>p{
-                font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 160%;
-/* or 19px */
-letter-spacing: 0.01em;
-color: rgba(255, 255, 255, 0.7);
+              & > p {
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 160%;
+                /* or 19px */
+                letter-spacing: 0.01em;
+                color: rgba(255, 255, 255, 0.7);
               }
+            }
+          }
+          &-row2 {
+            width: 100%;
+            height: auto;
+            margin-top: 15px;
+            padding: 0.5rem 0rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            // background-color: #9dedf0;
+            &-left {
+              & > p {
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 130%;
+                letter-spacing: 0.01em;
+                color: rgba(255, 255, 255, 0.7);
+              }
+              & > h2 {
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 400;
+                line-height: 130%;
+                letter-spacing: 0.01em;
+                color: rgba(255, 255, 255, 0.7);
+              }
+            }
+            &-right {
+              & > button {
+                width: 78px;
+                height: 33px;
+                background: none;
+                border: 2px solid #7de7eb;
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 160%;
+                letter-spacing: 0.01em;
+                background: linear-gradient(
+                  157.81deg,
+                  #def9fa -43.27%,
+                  #bef3f5 -21.24%,
+                  #9dedf0 12.19%,
+                  #7de7eb 29.82%,
+                  #5ce1e6 51.94%,
+                  #33bbcf 90.29%
+                );
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
+            }
+          }
+          &-row3 {
+            width: 100%;
+            height: auto;
+            margin-top: 19px;
+            padding: 0.5rem 0rem;
+            // background-color: #def9fa;
+            & > button {
+              width: 100%;
+              height: 33px;
+              background: linear-gradient(
+                157.81deg,
+                #def9fa -43.27%,
+                #bef3f5 -21.24%,
+                #9dedf0 12.19%,
+                #7de7eb 29.82%,
+                #5ce1e6 51.94%,
+                #33bbcf 90.29%
+              );
+              border-radius: 10px;
+              border: none;
             }
           }
         }
