@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.scss";
-import Hanheader from "../../../assets/Handheader.svg";
+import Hanheader from "../../../assets/homeAssets/HAndheader.png";
 import Persentage from "../../../assets/homeAssets/persntage.png";
 import GetStart from '../../../assets/homeAssets/getstrt.png';
 const Home = () => {
