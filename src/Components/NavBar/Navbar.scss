@@ -600,3 +600,51 @@ color: rgba(255, 255, 255, 0.7);
     }
   }
 }
+
+.container6{
+  width: 100%;
+  height: auto;
+  padding: .5rem 0rem;
+  background-color: #11141f;
+  &-content{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: .5rem 0rem;
+    display: flex;
+    // background-color: #7de7eb;
+  &-left{
+    width: 50%;
+    height: auto;
+    padding: .5rem 0rem;
+    // background-color: purple;
+    &>h1{
+      width: 90%;
+      font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 4rem;
+line-height: 170%;
+color: #FFFFFF;
+    }
+  }
+  &-right{
+    width: 50%;
+    height: auto;
+    padding: .5rem 0rem;
+    display: flex;
+    align-items: center;
+    // background-color: lawngreen;
+    &>p{
+      width: 90%;
+      font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 1.8rem;
+line-height: 180%;
+letter-spacing: 0.01em;
+color: rgba(255, 255, 255, 0.7);
+    }
+  }
+  }
+}

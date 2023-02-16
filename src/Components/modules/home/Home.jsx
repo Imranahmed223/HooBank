@@ -149,7 +149,20 @@ const Home = () => {
             <button>Get Started</button>
           </div>
           <div className="method-container-content-right">
-            <img src={method} alt='method' />
+            <img src={method} alt="method" />
+          </div>
+        </div>
+      </div>
+      <div className="container6">
+        <div className="container6-content">
+          <div className="container6-content-left">
+            <h1>What people are saying about us</h1>
+          </div>
+          <div className="container6-content-right">
+            <p>
+              Everything you need to accept card payments and grow your business
+              anywhere on the planet.
+            </p>
           </div>
         </div>
       </div>
