@@ -12,6 +12,10 @@ import Check from "../../../assets/homeAssets/chck.svg";
 import Apple from "../../../assets/homeAssets/apple.svg";
 import pStore from "../../../assets/homeAssets/playstore.svg";
 import method from "../../../assets/homeAssets/method.png";
+import airbn from "../../../assets/homeAssets/airbnb.png";
+import binance from "../../../assets/homeAssets/binance.png";
+import conbase from "../../../assets/homeAssets/conbase.png";
+import dropbase from "../../../assets/homeAssets/dropbox.png";
 
 const Home = () => {
   return (
@@ -164,6 +168,14 @@ const Home = () => {
               anywhere on the planet.
             </p>
           </div>
+        </div>
+      </div>
+      <div className="companyNames">
+        <div className='companyNames-content'>
+        <img src={airbn} alt='airbnd' />
+        <img src={conbase} alt='airbnd' />
+        <img src={binance} alt='airbnd' />
+        <img src={dropbase} alt='airbnd' />
         </div>
       </div>
     </>
